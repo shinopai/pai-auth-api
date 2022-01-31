@@ -41,3 +41,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # env management
 gem 'dotenv-rails'
+
+# use mysql as database on heroku
+gem 'mysql2'
