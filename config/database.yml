@@ -17,8 +17,8 @@ test:
   database: pai_auth_test
 
 production:
-  <<: *default
   adapter: mysql2
+  encoding: unicode
   username: <%= ENV['PAI_AUTH_USERNAME'] %>
   password: <%= ENV['PAI_AUTH_PASSWORD'] %>
   host: <%= ENV['PAI_AUTH_HOST'] %>
