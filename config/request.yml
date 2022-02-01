@@ -1,0 +1,11 @@
+default: &default
+  domain: localhost:8080
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  domain: pai-auth-front.herokuapp.com
